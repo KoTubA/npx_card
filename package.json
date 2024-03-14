@@ -1,0 +1,29 @@
+{
+  "name": "kotuba",
+  "version": "1.0.0",
+  "description": "A personal card for Szymon Kotarba (@kotuba)",
+  "main": "card.mjs",
+  "bin": {
+    "kotuba": "./card.mjs"
+  },
+  "scripts": {
+    "card": "node card.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoTubA/npx_card.git"
+  },
+  "keywords": [
+    "card",
+    "npm card",
+    "npx card",
+    "business card",
+    "kotuba"
+  ],
+  "author": "kotuba",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0"
+  }
+}
