@@ -4,7 +4,7 @@
   "description": "A personal card for Szymon Kotarba (@kotuba)",
   "main": "card.mjs",
   "bin": {
-    "kotuba": "./card.mjs"
+    "kotuba": "card.mjs"
   },
   "scripts": {
     "card": "node card.mjs"
