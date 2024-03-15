@@ -1,6 +1,6 @@
 {
   "name": "kotuba",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A personal card for Szymon Kotarba (@kotuba)",
   "main": "card.mjs",
   "bin": {
