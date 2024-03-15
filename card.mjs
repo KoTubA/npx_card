@@ -19,7 +19,7 @@ const data = {
   labelCard: chalk.white.bold("     Card:"),
 };
 
-const me = boxen([`${data.labelName}  ${data.name}`, `${data.labelGitHub}  ${data.github}`, `${data.labelLinkedIn}  ${data.linkedin}`, `${data.labelEmail}  ${data.email}`, ``, `${data.labelCard}  ${data.npx}`].join("\n"), {
+const me = boxen([`${data.labelName}  ${data.name}`, ``, `${data.labelGitHub}  ${data.github}`, `${data.labelLinkedIn}  ${data.linkedin}`, `${data.labelEmail}  ${data.email}`, ``, `${data.labelCard}  ${data.npx}`].join("\n"), {
   margin: {
     left: 3,
     right: 3,
@@ -41,9 +41,9 @@ console.log(tip);
 const asciiArt = `
                                .-"-.
                               /|6 6|\\
-                             {/(_0_)\}
+                             {/(_0_)\\}
                               _/ ^ \\_
-                             (/ /^\ \\)-'
+                             (/ /^\\ \\)-'
                               ""' '""
                           ${chalk.red("Have a nice day!")}
 `;
